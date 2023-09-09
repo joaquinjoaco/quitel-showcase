@@ -72,7 +72,7 @@ export const sendPreRegistration = (navigateOnSuccess) => {
      // })
      //      .then(response => response.json())
      //      .then(data => {
-     //           // API response
+     //           // reponse
      //           console.log("data: " + data);
      //           switch (data) {
      //                case "success":
@@ -120,7 +120,7 @@ export const sendRegistration = (navigateOnSuccess) => {
      // })
      //      .then(response => response.json())
      //      .then(data => {
-     //           // API response
+     //           // response
      //           console.log("data: " + data);
      //           switch (data) {
      //                case "success":
@@ -172,7 +172,7 @@ export const sendRegistration = (navigateOnSuccess) => {
 //           })
 //                .then(response => response.json())
 //                .then(data => {
-//                     // API response
+//                     // response
 //                     console.log("data: " + data);
 //                     navigateOnSuccess();
 //                })
@@ -210,7 +210,7 @@ export const sendAbstract = (navigateOnSuccess) => {
      // })
      //      .then(response => response.json())
      //      .then(data => {
-     //           // API response
+     //           // response
      //           console.log("data: " + data);
 
      //           switch (data) {
@@ -259,7 +259,7 @@ export const sendAbstract = (navigateOnSuccess) => {
      // })
      //      .then(response => response.json())
      //      .then(data => {
-     //           // API response
+     //           // response
      //           console.log("data: " + data);
      //           navigateOnSuccess();
      //      })

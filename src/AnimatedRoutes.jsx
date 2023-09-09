@@ -11,7 +11,6 @@ import RegistrationForm from './Pages/Registration/Fees/RegistrationForm.jsx';
 import PreRegistration from './Pages/Registration/PreRegistration/PreRegistration.jsx';
 import Abstract from './Pages/Abstract/Abstract.jsx';
 import AbstractForm from './Pages/Abstract/AbstractForm.jsx';
-import Speakers from './Pages/Speakers/Speakers.jsx';
 import Committees from './Pages/Commitees/Committees.jsx';
 import Contact from './Pages/Contact/Contact.jsx';
 import ErrorPage from './Pages/ErrorPage.jsx';
@@ -34,7 +33,6 @@ function AnimatedRoutes() {
                     <Route path="/preregistration-form" element={<PreRegistration />} />
                     <Route path="/abstract-submission" element={<Abstract />} />
                     <Route path="/abstract-submission-form" element={<AbstractForm />} />
-                    <Route path="/speakers" element={<Speakers />} />
                     <Route path="/committees" element={<Committees />} />
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/venue" element={<Venue />} />

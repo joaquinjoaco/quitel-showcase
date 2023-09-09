@@ -85,10 +85,6 @@ export default function Navbar() {
                               </motion.li>
 
                               <motion.li whileHover={{ scale: [null, 1.15, 1.10] }} transition={{ duration: 0.2 }} whileTap={{ scale: 1 }}>
-                                   <NavLink className="nav-link" to="/speakers">Speakers</NavLink>
-                              </motion.li>
-
-                              <motion.li whileHover={{ scale: [null, 1.15, 1.10] }} transition={{ duration: 0.2 }} whileTap={{ scale: 1 }}>
                                    <NavLink className="nav-link" to="/abstract-submission">Abstract submission</NavLink>
                               </motion.li>
 
