@@ -36,8 +36,7 @@ export default function AbstractForm() {
           if (validateData(formData) && (files.editableFormat || files.pdfFormat)) {
                setIsDisabled(true);
                setErrorMessage("");
-               sendAbstract(navigateOnSuccess);
-               // sendAbstract(formData, files, navigateOnSuccess, setErrorMessage, setIsDisabled);
+               sendAbstract(formData, files, navigateOnSuccess, setErrorMessage, setIsDisabled);
           } else {
                setErrorMessage("There may be an empty field, please check.");
           }

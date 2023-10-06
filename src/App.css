@@ -49,13 +49,9 @@ body {
 
 /* ------------------------- */
 
-.mercado-pago {
-  margin-block: 2rem;
-}
-.mercado-pago span {
-  color: white;
-  font-weight: 500;
-  /* padding: 1rem; */
+.copy {
+  cursor: pointer;
+  padding-left: 4px;
 }
 
 /* error page */
@@ -181,7 +177,7 @@ body {
 .button-long-blue,
 .button-long-pink,
 .upload-button,
-.button-long-MP {
+.button-long-PP {
   color: white;
   margin-top: 1rem;
   text-decoration: none;
@@ -198,7 +194,7 @@ body {
 .button-long-blue:hover,
 .button-long-pink:hover,
 .upload-button:hover,
-.button-long-MP:hover {
+.button-long-PP:hover {
   scale: 1.01;
   transition: all 0.2s;
   box-shadow: 0px 0px 20px rgb(255, 255, 255);
@@ -208,8 +204,8 @@ body {
   background-color: var(--sweet-blue);
 }
 
-.button-long-MP {
-  background-color: #0091d0;
+.button-long-PP {
+  background-color: #f2ba36;
 }
 
 .submit-button {
@@ -335,7 +331,7 @@ body {
   font-weight: 600;
 }
 
-.venue-img {
+.image {
   width: auto;
   border: none;
   margin-bottom: 1rem;
@@ -370,6 +366,10 @@ body {
   padding: 8px;
   border: 2px solid #499626;
   font-weight: 600;
+}
+
+.wire {
+  background-color: #1eb381;
 }
 
 /* for mobile devices in landscape */
@@ -407,7 +407,7 @@ body {
 
   .button-long-blue,
   .button-long-pink,
-  .button-long-MP,
+  .button-long-PP,
   .upload-button {
     font-size: clamp(0.5rem, 2.2vw, 0.75rem);
     padding: 1rem;
@@ -451,7 +451,7 @@ body {
   .button-long-blue,
   .button-long-pink,
   .upload-button,
-  .button-long-MP {
+  .button-long-PP {
     font-size: clamp(0.95rem, 2.2vw, 0.75rem);
   }
 }
@@ -530,7 +530,7 @@ body {
   .button-long-blue,
   .button-long-pink,
   .upload-button,
-  .button-long-MP {
+  .button-long-PP {
     font-size: clamp(0.5rem, 2.2vw, 0.75rem);
     padding: 1rem;
   }
@@ -607,7 +607,7 @@ body {
   .button-long-blue,
   .button-long-pink,
   .upload-button,
-  .button-long-MP {
+  .button-long-PP {
     font-size: clamp(0.5rem, 2.2vw, 0.75rem);
     padding: 1rem;
   }

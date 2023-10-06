@@ -51,8 +51,7 @@ export default function PreRegistration() {
           if (validateData(formData)) {
                setIsDisabled(true);
                setErrorMessage("");
-               sendPreRegistration(navigateOnSuccess);
-               // sendPreRegistration(formData, navigateOnSuccess, setErrorMessage, setIsDisabled);
+               sendPreRegistration(formData, navigateOnSuccess, setErrorMessage, setIsDisabled);
           } else {
                setErrorMessage("There may be empty fields in one of the steps, please check.");
           }

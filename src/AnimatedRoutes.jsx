@@ -1,7 +1,6 @@
 import { useLocation, Route, Routes } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 
-// import App from './App.jsx';
 // page imports
 import Home from './Pages/Home/Home.jsx';
 import About from './Pages/About/About.jsx';
@@ -17,7 +16,8 @@ import ErrorPage from './Pages/ErrorPage.jsx';
 import Venue from './Pages/Venue/Venue.jsx';
 import Success from './Pages/Success/Success.jsx';
 import Hotel from './Pages/Hotel/Hotel.jsx';
-
+import Payment from './Pages/Payment/payment.jsx';
+import WireTransfer from './Pages/Payment/WireTransfer.jsx';
 
 function AnimatedRoutes() {
      const location = useLocation();
@@ -29,6 +29,8 @@ function AnimatedRoutes() {
                     <Route path="/about" element={<About />} />
                     <Route path="/registration" element={<Registration />} />
                     <Route path="/registration-info" element={<Fees />} />
+                    <Route path="/payment" element={<Payment />} />
+                    <Route path="/bank-payment" element={<WireTransfer />} />
                     <Route path="/registration-form" element={<RegistrationForm />} />
                     <Route path="/preregistration-form" element={<PreRegistration />} />
                     <Route path="/abstract-submission" element={<Abstract />} />
